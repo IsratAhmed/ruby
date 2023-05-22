@@ -3,7 +3,7 @@
 =begin
 another comment
 =end
-
+------------------------------------------------------------------------------------------------------------------------------
 print "What's your first name? "
 first_name = gets.chomp # gets user input to be outputted
 first_name.capitalize!
@@ -21,3 +21,12 @@ state = gets.chomp
 state.upcase! # changes output into UPPERCASE
 
 puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!" # prints information that has been provided
+------------------------------------------------------------------------------------------------------------------------------
+# test_1 should be true
+test_1 = ( 1 == 1 ) && ( 2 == 2 )  # true
+
+# test_2 = should be true
+test_2 = ( 1 == 2 ) || ( 2 == 2 ) # true
+
+# test_3 = should be false
+test_3 = !( 2 == 2 ) # false 
