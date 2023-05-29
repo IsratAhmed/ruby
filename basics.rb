@@ -48,3 +48,10 @@ i = 0
 while i < 11 # WHILE loop
   puts i = i + 1 # increment i by adding 1
 end
+------------------------------------------------------------------------------------------------------------------------------
+counter = 0
+
+until counter == 11 # UNTIL is used opposed to WHILE and uses "==", instead of "<" or ">". "UNTIL counter == 11" prints out until 10.
+  puts counter
+  counter = counter + 1
+end
