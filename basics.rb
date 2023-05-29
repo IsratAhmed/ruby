@@ -69,3 +69,10 @@ end
 for num in 1..15 # ".." ranges from 1 up to and including 15
   puts num
 end
+------------------------------------------------------------------------------------------------------------------------------------
+i = 20
+loop do # ITERATION uses "do" and "end" to start and end the loop. "{}" can also be used to replace "do" and "end"
+  i -= 1
+  puts "#{i}"
+  break if i <= 0 # BREAK stops any code
+end
