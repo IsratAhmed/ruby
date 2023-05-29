@@ -42,3 +42,9 @@ else
 end
   
 puts "Your string is: #{user_input}"
+------------------------------------------------------------------------------------------------------------------------------
+i = 0
+
+while i < 11 # WHILE loop
+  puts i = i + 1 # increment i by adding 1
+end
