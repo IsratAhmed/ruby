@@ -61,3 +61,11 @@ while counter < 11
   puts counter
   counter += 1 # "+=" also increments
 end
+------------------------------------------------------------------------------------------------------------------------------------
+for num in 1...10 # FOR loop ranges from 1 up to but without including 10, due to the "..."
+  puts num
+end
+------------------------------------------------------------------------------------------------------------------------------------
+for num in 1..15 # ".." ranges from 1 up to and including 15
+  puts num
+end
