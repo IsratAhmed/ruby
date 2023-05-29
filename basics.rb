@@ -3,7 +3,7 @@
 =begin
 another comment
 =end
-------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 print "What's your first name? "
 first_name = gets.chomp # gets user input to be outputted
 first_name.capitalize!
@@ -21,7 +21,7 @@ state = gets.chomp
 state.upcase! # changes output to UPPERCASE
 
 puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!" # prints information that has been provided
-------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 # test_1 should be true
 test_1 = ( 1 == 1 ) && ( 2 == 2 )  # true
 
@@ -30,7 +30,7 @@ test_2 = ( 1 == 2 ) || ( 2 == 2 ) # true
 
 # test_3 = should be false
 test_3 = !( 2 == 2 ) # false 
-------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 print "User input: "
 user_input = gets.chomp
 user_input.downcase! # changes output to LOWERCASE
@@ -42,16 +42,16 @@ else
 end
   
 puts "Your string is: #{user_input}"
-------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 i = 0
 
 while i < 11 # WHILE loop
   puts i = i + 1 # increment i by adding 1
 end
-------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 counter = 0
-
-until counter == 11 # UNTIL is used opposed to WHILE and uses "==", instead of "<" or ">". "UNTIL counter == 11" prints out until 10.
+# until is false or not equal to "!="
+until counter == 11 # UNTIL is used opposed to WHILE and uses "==", instead of "<" or ">". "UNTIL counter == 11" prints out until 10
   puts counter
   counter = counter + 1
 end
