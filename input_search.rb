@@ -9,6 +9,6 @@ words.each do |word|
   if word != redact
     print word + " "
   else
-    print "REDACTED "
+    print "REDACTED " # IF "text" and "redact" words are the same, the word "REDACTED" is printed out
   end
 end
